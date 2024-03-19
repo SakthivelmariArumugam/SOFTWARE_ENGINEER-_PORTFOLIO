@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: auto;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    text-align: center;
+    height: 300px;
+}
+.container21{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.container21>a{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.kink{
+    text-decoration: none;
+    color: gray;
+}
+.kink:hover{
+    border-top: 2px solid black;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.container22{
+    margin-top: 60px;
+    background-color:white;
+    height:1300px
+
+}
+.button1{
+    width: 100px; 
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+}

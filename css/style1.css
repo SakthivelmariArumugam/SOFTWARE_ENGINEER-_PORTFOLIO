@@ -1,0 +1,61 @@
+
+.fa-twitter {
+    background: white;
+    color:orange;
+  }
+  .fa-linkedin {
+    background: white;
+    color:orange;
+  }
+  .fa-instagram {
+    background: white;
+    color:orange;
+  }
+  .fa-facebook {
+    background: white;
+    color:orange;
+  }
+  .fa-youtube {
+    background: white;
+    color:orange;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+    height: auto;
+  }
+  body{
+    overflow: hidden;
+  }
+  .container1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    background-color:orange;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+  }
+  .container1>div{
+    margin-top: 30px;
+  }
+  .container2{
+    width: 100%;
+    height: 100%;
+  }
+  .About{
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: bold;
+    color:white;
+  }
+  .About:hover{
+    color: black;
+  }
+  .link{
+  }
+.links>a{
+   margin: 10px;
+}
